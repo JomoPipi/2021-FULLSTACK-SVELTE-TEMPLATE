@@ -42,11 +42,13 @@
 
 <main>
 	<h1> HELLO {name}! </h1>
+	<a href="/about">
 	<canvas 
 		bind:this={canvas}
 		width={200}
 		height={200}
 	></canvas>
+	</a>
 </main>
 
 <style>

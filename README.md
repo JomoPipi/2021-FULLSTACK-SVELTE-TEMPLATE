@@ -1,1 +1,1 @@
-"# Svelte-Express-TS-boilerplate" 
+# Svelte-Express-TS-boilerplate

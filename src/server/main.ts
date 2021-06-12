@@ -10,7 +10,7 @@ const staticPath = path.join(__dirname, '..', '..', 'src', 'client', 'public')
 
 app.use(express.static(staticPath))
 
-app.get('/', (req, res) => res.sendFile(path.join(staticPath, 'index.html')))
+app.get('/about', (req, res) => res.sendFile(path.join(staticPath, 'about.html')))
 
 server.listen(80, () => console.log('SERVER IS LISTENING!'))
 
