@@ -48,7 +48,7 @@
 		width={200}
 		height={200}
 	></canvas>
-	</a>
+</a>
 </main>
 
 <style>
