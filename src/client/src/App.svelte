@@ -51,19 +51,33 @@
 </a>
 </main>
 
-<style>
+<style lang="scss">
+	$col: #6200ff;
 	main {
 		text-align: center;
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
+
+		h1 {
+			color: $col;
+			text-transform: uppercase;
+			font-size: 5em;
+			font-weight: 100;
+		}
+
+		canvas {
+			box-shadow: 5px 5px 5px black;
+			animation: move 10s linear infinite;
+		}
 	}
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
+	@keyframes move {
+		0%	 { box-shadow: -5px 5px 5px black; }
+		25%  { box-shadow: 5px 5px 5px black; }
+		50%  { box-shadow: 5px -5px 5px black; }
+		75%  { box-shadow: -5px -5px 5px black; }
+		100% { box-shadow: -5px 5px 5px black; }
 	}
 
 	@media (min-width: 640px) {

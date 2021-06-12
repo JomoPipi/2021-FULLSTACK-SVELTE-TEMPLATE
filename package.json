@@ -21,11 +21,6 @@
     "watch": [
       "src/"
     ],
-    "execMap": {
-      "ts": "tsc",
-      "_ts": "node --loader ts-node/esm",
-      "__ts": "node -r ts-node/register"
-    },
     "exec": "node --loader ts-node/esm src/server/main.ts",
     "env": {
       "NODE_ENV": "development"
