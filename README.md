@@ -8,7 +8,7 @@
 
 ## Installation/Usage
 
-Enter these commands in the terminal, while in the root directory of the project:
+Go to the root directory of the project in your terminal and enter these commands:
 ```
 npm install
 cd src/client
